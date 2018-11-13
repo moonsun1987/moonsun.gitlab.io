@@ -4,3 +4,17 @@ pages:
   artifacts:
     paths:
       - public_website
+
+build:java:
+  image: fedora:latest
+  script:
+  - cd java 
+  - pwd 
+  - dnf upgrade --refresh -yqq 
+  - dnf install java-devel gradle -yqq 
+  - javac -version 
+  - java -version 
+  - gradle wrapper --gradle-version 2.13
+  - ./gradlew build
+  - ./gradlew run
+  
