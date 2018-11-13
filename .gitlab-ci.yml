@@ -1,8 +1,6 @@
 pages:
   script:
     - date
-    - time yarn run generate
-    - date 
   artifacts:
     paths:
       - public_website
