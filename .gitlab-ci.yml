@@ -3,7 +3,7 @@ pages:
     - date
   artifacts:
     paths:
-      - public_website
+      - public
 
 build:java:
   image: fedora:latest
