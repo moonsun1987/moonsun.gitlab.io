@@ -1,10 +1,9 @@
 CACHE MANIFEST
 # mywebapp.appcache v1
 # this is my cache manifest 
-fileindex.html
-cache.html
-style.css
-image1.png
+index.html
+contact.html
+css/style.css
 
 # Use from network if available
 NETWORK:
