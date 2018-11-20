@@ -10,6 +10,11 @@ body {
     background: #607D8B;
 }
 
+img { 
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
