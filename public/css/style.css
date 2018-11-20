@@ -1,8 +1,10 @@
 article {
     background: #ECEFF1;
+    padding: 0 5%;
 }
 aside {
     background: #90A4AE;
+    padding: 0 5%;
 }
 body { 
     background: #607D8B;
