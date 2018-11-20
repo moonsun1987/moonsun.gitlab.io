@@ -3,6 +3,8 @@ CACHE MANIFEST
 # this is my cache manifest 
 index.html
 contact.html
+fallback.html
+favicon.ico
 css/style.css
 css/reproduction.png
 
