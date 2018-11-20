@@ -4,6 +4,7 @@ CACHE MANIFEST
 index.html
 contact.html
 css/style.css
+css/reproduction.png
 
 # Use from network if available
 NETWORK:
