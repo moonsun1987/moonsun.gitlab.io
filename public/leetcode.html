@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" manifest="moonsun.appcache">
+<head>
+	<meta charset="utf-8">
+	<title>home | moon sun</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://moonsun.gitlab.io/favicon.ico">
+</head>
+
+<body id="home">
+    <article>
+        <h1>
+            leet code
+        </h1>
+        <p>
+            This is the page about my attempts to do some leet code practice. 
+        </p>
+        <h2>
+            Two sum
+        </h2>
+        <pre>
+            class Solution {
+                public int[] twoSum(int[] nums, int target) {
+                    for (int i = 0; i < nums.length; i++)
+                    {
+                        for (int j = i + 1; j < nums.length; j++){
+                            if (nums[i] + nums[j] == target){
+                                return new int[]{i, j};
+                            }
+                        }
+                    }
+                    return null;
+                }
+            }
+        </pre>
+        <img src="css/reproduction.png" alt="about reproduction rights">
+    </article>
+    <aside>
+        <h1>
+            Important links
+        </h1>
+        <ol>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+        </ol>
+    </aside>
+</body>
+</html>
