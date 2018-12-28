@@ -11,6 +11,7 @@ css/reproduction.png
 # Use from network if available
 NETWORK:
 network.html
+leetcode.html
 
 # Fallback content
 FALLBACK:
