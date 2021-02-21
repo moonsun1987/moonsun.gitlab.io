@@ -11,9 +11,16 @@ build:java:
   - cd java 
   - pwd 
   - dnf upgrade --refresh -yqq 
-  - dnf install java-devel gradle -yqq 
+  - dnf install java-devel -yqq 
   - javac -version 
   - java -version 
+  - dnf install unzip wget
+  - wget https://downloads.gradle-dn.com/distributions/gradle-6.3-bin.zip
+  - unzip gradle-6.3-bin.zip
+  - mv gradle-6.3 /usr/local/gradle
+  - export PATH=/usr/local/gradle/bin:$PATH
+  - source /etc/profile.d/gradle.sh
+  - gradle --version
   - gradle wrapper --gradle-version 2.13
   - ./gradlew build
   - ./gradlew run
