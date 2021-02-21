@@ -12,6 +12,7 @@ build:java:
   - pwd 
   - dnf upgrade --refresh -yqq 
   - dnf install java-devel -yqq 
+  - export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
   - javac -version 
   - java -version 
   - dnf install unzip wget -yqq
