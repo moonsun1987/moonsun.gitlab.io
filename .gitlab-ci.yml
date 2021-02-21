@@ -14,7 +14,7 @@ build:java:
   - dnf install java-devel -yqq 
   - javac -version 
   - java -version 
-  - dnf install unzip wget
+  - dnf install unzip wget -yqq
   - wget https://downloads.gradle-dn.com/distributions/gradle-6.3-bin.zip
   - unzip gradle-6.3-bin.zip
   - mv gradle-6.3 /usr/local/gradle
