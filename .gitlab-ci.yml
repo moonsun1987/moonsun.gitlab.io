@@ -11,11 +11,10 @@ build:java:
   - cd java 
   - pwd 
   - dnf upgrade --refresh -yqq 
-  - dnf install java-devel -yqq 
+  - dnf install java-devel which unzip wget -yqq 
   - export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
   - javac -version 
   - java -version 
-  - dnf install unzip wget -yqq
   - wget https://downloads.gradle-dn.com/distributions/gradle-6.3-bin.zip
   - unzip gradle-6.3-bin.zip
   - mv gradle-6.3 /usr/local/gradle
